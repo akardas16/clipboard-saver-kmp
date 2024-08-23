@@ -9,9 +9,9 @@ plugins {
 mavenPublishing {
     // Define coordinates for the published artifact
     coordinates(
-        groupId = "io.github.ovicristurean",
+        groupId = "io.github.akardas16",
         artifactId = "clipboard-saver",
-        version = "1.0.0"
+        version = "1.0.1"
     )
 
     // Configure POM metadata for the published artifact
@@ -19,7 +19,7 @@ mavenPublishing {
         name.set("KMP Library for saving data to the clipboard")
         description.set("This library can be used by Android and iOS targets for the shared functionality of saving data to the clipboard")
         inceptionYear.set("2024")
-        url.set("https://github.com/ovicristurean/clipboard-saver-kmp")
+        url.set("https://github.com/akardas16/clipboard-saver-kmp")
 
         licenses {
             license {
@@ -32,14 +32,14 @@ mavenPublishing {
         developers {
             developer {
                 id.set("ovicristurean")
-                name.set("Ovidiu Cristurean")
+                name.set("Abdullah")
                 email.set("cristurean.marius.ovidiu@gmail.com")
             }
         }
 
         // Specify SCM information
         scm {
-            url.set("https://github.com/ovicristurean/clipboard-saver-kmp")
+            url.set("https://github.com/akardas16/clipboard-saver-kmp")
         }
     }
 
