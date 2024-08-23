@@ -11,7 +11,7 @@ mavenPublishing {
     coordinates(
         groupId = "io.github.akardas16",
         artifactId = "clipboard-saver",
-        version = "1.0.1"
+        version = "1.0.2"
     )
 
     // Configure POM metadata for the published artifact
